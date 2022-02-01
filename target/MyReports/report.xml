@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.688">
+    <testcase classname="Amazon Search" name="Search for a Product MacBook Pro" time="0.172">
+        <system-out>
+            <![CDATA[Given I have search field on Amazon Page....................................passed
+When I search for a product with name "Apple MacBook Pro" and price 1000....passed
+Then Product with name "Apple MacBook Pro" should be displayed..............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Amazon Search" name="Search for a Product IPhone" time="0.011">
+        <system-out>
+            <![CDATA[Given I have search field on Amazon Page....................................passed
+When I search for a product with name "IPhone" and price 5000...............passed
+Then Product with name "IPhone" should be displayed.........................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
